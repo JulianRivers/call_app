@@ -1,8 +1,10 @@
-
 import 'package:flutter/material.dart';
 import 'package:chatty/common/middlewares/middlewares.dart';
 
 import 'package:get/get.dart';
+
+import 'package:chatty/pages/frame/welcome/index.dart';
+import 'package:chatty/pages/message/index.dart';
 
 import 'routes.dart';
 
@@ -10,14 +12,15 @@ class AppPages {
   static const INITIAL = AppRoutes.INITIAL;
   static final RouteObserver<Route> observer = RouteObservers();
   static List<String> history = [];
- /*
+
   static final List<GetPage> routes = [
-    // 免登陆
+    // about boot up the app
     GetPage(
       name: AppRoutes.INITIAL,
       page: () => WelcomePage(),
       binding: WelcomeBinding(),
     ),
+    /*
     GetPage(
       name: AppRoutes.SIGN_IN,
       page: () => SignInPage(),
@@ -42,10 +45,17 @@ class AppPages {
     GetPage(name: AppRoutes.SendCode, page: () => SendCodePage(), binding: SendCodeBinding()),
     // 首页
     GetPage(name: AppRoutes.Contact, page: () => ContactPage(), binding: ContactBinding()),
-    //消息
-    GetPage(name: AppRoutes.Message, page: () => MessagePage(), binding: MessageBinding(),middlewares: [
-       RouteAuthMiddleware(priority: 1),
-     ],),
+    */
+    // message page
+    GetPage(
+      name: AppRoutes.Message,
+      page: () => MessagePage(),
+      binding: MessageBinding(),
+      middlewares: [
+        RouteAuthMiddleware(priority: 1),
+      ],
+    ),
+    /*
     //我的
     GetPage(name: AppRoutes.Profile, page: () => ProfilePage(), binding: ProfileBinding()),
     //聊天详情
@@ -53,12 +63,6 @@ class AppPages {
 
     GetPage(name: AppRoutes.Photoimgview, page: () => PhotoImgViewPage(), binding: PhotoImgViewBinding()),
     GetPage(name: AppRoutes.VoiceCall, page: () => VoiceCallViewPage(), binding: VoiceCallViewBinding()),
-    GetPage(name: AppRoutes.VideoCall, page: () => VideoCallPage(), binding: VideoCallBinding()),
-  ];*/
-
-
-
-
-
-
+    GetPage(name: AppRoutes.VideoCall, page: () => VideoCallPage(), binding: VideoCallBinding()),*/
+  ];
 }

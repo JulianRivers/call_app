@@ -1,12 +1,16 @@
-import 'package:chatty/pages/message/controller.dart';
+import 'package:chatty/pages/frame/sign_in/controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class MessagePage extends GetView<MessageController> {
-  const MessagePage({super.key});
+class SignInPage extends GetView<SignInController> {
+  const SignInPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Center(
+        child: Text("Sign in Page"),
+      ),
+    );
   }
 }

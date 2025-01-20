@@ -4,6 +4,7 @@ import 'package:chatty/common/middlewares/middlewares.dart';
 import 'package:get/get.dart';
 
 import 'package:chatty/pages/frame/welcome/index.dart';
+import 'package:chatty/pages/frame/sign_in/index.dart';
 import 'package:chatty/pages/message/index.dart';
 
 import 'routes.dart';
@@ -20,13 +21,13 @@ class AppPages {
       page: () => WelcomePage(),
       binding: WelcomeBinding(),
     ),
-    /*
+
     GetPage(
       name: AppRoutes.SIGN_IN,
       page: () => SignInPage(),
       binding: SignInBinding(),
     ),
-
+/*
     // 需要登录
     // GetPage(
     //   name: AppRoutes.Application,

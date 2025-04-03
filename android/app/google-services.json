@@ -7,12 +7,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:447936409934:android:b2044e4eaffcc420476e1f",
+        "mobilesdk_app_id": "1:447936409934:android:70d3add30a50a41b476e1f",
         "android_client_info": {
-          "package_name": "com.example.chatty"
+          "package_name": "com.nuviapp.chatty_chat"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "447936409934-it0frvo7iurcoq369u69jbeb65b7j44h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyA6RdX8qLZdSlTQ4Yd4wTy-BIwQ9ZX3t0o"
@@ -20,7 +25,55 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447936409934-it0frvo7iurcoq369u69jbeb65b7j44h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "447936409934-oae6bbeqkr2ad9l2stekk8ukj3kkik6b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.chatty01"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447936409934:android:3358dec6fcfccd5e476e1f",
+        "android_client_info": {
+          "package_name": "com.nuviapp.chattychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447936409934-it0frvo7iurcoq369u69jbeb65b7j44h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6RdX8qLZdSlTQ4Yd4wTy-BIwQ9ZX3t0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447936409934-it0frvo7iurcoq369u69jbeb65b7j44h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "447936409934-oae6bbeqkr2ad9l2stekk8ukj3kkik6b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.chatty01"
+              }
+            }
+          ]
         }
       }
     }
